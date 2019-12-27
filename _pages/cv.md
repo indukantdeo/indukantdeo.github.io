@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 
-<iframe src="https://drive.google.com/file/d/1Anz__YQvqB3lEQx4cdL8A8drYN29h6GD/view?usp=sharing" width="640" height="530"></iframe>
+<iframe src="https://indukantdeo.github.io/files/CurriculumVitae.pdf" width="640" height="530"></iframe>
