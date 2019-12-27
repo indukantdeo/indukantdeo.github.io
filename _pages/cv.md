@@ -6,6 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+{% include base_path %}
 
-
-<iframe src="https://indukantdeo.github.io/files/CurriculumVitae.pdf" width="640" height="530"></iframe>
+<iframe src="https://indukantdeo.github.io/files/CurriculumVitae.pdf" width="720" height="640"></iframe>
