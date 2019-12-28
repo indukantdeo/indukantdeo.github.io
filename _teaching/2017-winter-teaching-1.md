@@ -16,7 +16,7 @@ In the winter vacation of my junior year, I taught image processing and computer
   <li>Image handling using openCV.</li>
   <li>Basics of digital images and color space conversion.</li>
   <li>Edge detectionn, Image filtering, Dilation and Erosion.</li>
-  <li>Introduction to Graph Theory, DFS and BFS, Bolb detection, and Hough Transform.</li>
+  <li>Introduction to Graph Theory, DFS and BFS, Blob detection, and Hough Transform.</li>
   <li>Path planning algorithms, Dijkstra and A-Star.</li> 
   <li>Introduction to Machine Learning and Linear Regression.</li>
 </ul>  
