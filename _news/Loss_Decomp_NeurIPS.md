@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, titled "**Data-Driven, Parameterized Reduced-order Models for Predicting Distortion in Metal 3D Printing,**" has been accepted at the NeurIPS Machine Learning for Physical Sciences Workshop!
+Our paper, titled "**Harnessing Loss Decomposition for Long-Horizon Wave Predictions via Deep Neural Networks,**" has been accepted at the NeurIPS Machine Learning for Physical Sciences Workshop!
