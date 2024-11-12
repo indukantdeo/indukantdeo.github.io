@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a passionate researcher with a strong background in machine learning, computational physics, and data-driven modeling. I am currently a Ph.D. candidate at The University of British Columbia, working toward completing my dissertation on **physics-based machine learning reduced-order models for improving long-time-horizon wave propagation predictions**. My research focuses on developing **deep learning-based reduced-order models and leveraging machine learning frameworks to address complex challenges in fluid dynamics and underwater noise propagation.**
+I am a passionate researcher with a strong background in** machine learning, computational physics, and data-driven modeling**. I am currently a Ph.D. candidate at The University of British Columbia, working toward completing my dissertation on **physics-based machine learning reduced-order models for improving long-time-horizon wave propagation predictions**. My research focuses on developing **deep learning-based reduced-order models and leveraging machine learning frameworks to address complex challenges in fluid dynamics and underwater noise propagation.**
 
 In recent years, I’ve had the privilege of collaborating on projects that combine scientific computing methods with advanced deep learning principles, including:
 
