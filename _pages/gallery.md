@@ -56,3 +56,15 @@ Memories to share throughout my academic life
         {% include figure.html path="assets/img/Gallery_12.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Gallery_13.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Gallery_14.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Gallery_15.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
