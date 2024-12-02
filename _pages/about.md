@@ -26,7 +26,7 @@ In recent years, I’ve had the privilege of collaborating on projects that comb
 3. Introducing a novel **finite element-inspired hyper graph neural network**, which enables structured, high-fidelity representation of physical domains, enhancing model robustness and predictive accuracy for complex systems, published in **Journal of Computational Physics**.
 4. Developing a conditional convolutional neural network for real-time transmission loss prediction in varying oceanic environments, with a continual learning approach to account for changing bathymetry.
 5. Applying parameterized reduced-order modeling techniques to predict distortion in metal 3D printing, which led to a publication in the NeurIPS Machine Learning for Physical Sciences Workshop.
-6. Building an optimization framework which reduces the impact of shippin noise on marine mammals, published in Ocean Engineering journal.
+6. Building an optimization framework which reduces the impact of shipping noise on marine mammals, published in Ocean Engineering journal.
 
 Outside the lab, I’m passionate about the outdoors. Whether hiking up scenic trails, climbing rock faces, skiing down snowy slopes, or swimming in open waters, I find balance and inspiration in nature. These activities allow me to approach my work with a fresh perspective, fostering a problem-solving mindset that’s essential in research.
 
