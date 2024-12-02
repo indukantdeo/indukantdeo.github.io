@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cml.mech.ubc.ca/resources/'> University of British Columbia Vancouver</a>. X221, ICICS, UBC Vancouver,  BC V6T 1Z4, +1-604-618-2645.
+subtitle: <a href='https://cml.mech.ubc.ca/resources/'> University of British Columbia Vancouver</a>. X221, ICICS, BC V6T 1Z4, +1-604-618-2645.
 
 profile:
   align: right
