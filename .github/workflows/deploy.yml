@@ -86,9 +86,12 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+          test -s _site/assets/img/prof_pic-480.webp
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
