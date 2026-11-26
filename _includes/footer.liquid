@@ -1,4 +1,8 @@
-{% if site.footer_fixed %}
+{% assign fixed_footer = include.fixed %}
+{% if fixed_footer == nil %}
+  {% assign fixed_footer = site.footer_fixed %}
+{% endif %}
+{% if fixed_footer %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}

@@ -1,0 +1,332 @@
+.portfolio-home-page > [role="main"],
+.publication-index-page > [role="main"] {
+  margin-top: clamp(1.25rem, 4vw, 3rem) !important;
+}
+
+.portfolio-home,
+.publication-index-page {
+  --portfolio-muted: color-mix(in srgb, var(--global-text-color) 69%, var(--global-bg-color));
+  --portfolio-tint: color-mix(in srgb, var(--global-theme-color) 5%, var(--global-bg-color));
+}
+
+.home-intro {
+  display: grid;
+  grid-template-areas: "identity" "intro";
+  gap: 0.85rem clamp(1.25rem, 4vw, 3rem);
+  align-items: start;
+  padding: clamp(1.25rem, 3.5vw, 2.5rem);
+  background: var(--portfolio-tint);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.9rem;
+
+  h1 {
+    margin: 0 0 0.45rem;
+    font-size: clamp(2rem, 5vw, 3.35rem);
+    font-weight: 650;
+    letter-spacing: -0.045em;
+    line-height: 1.04;
+  }
+}
+
+.home-intro--with-portrait {
+  grid-template-columns: minmax(0, 1fr) clamp(8.5rem, 20vw, 11.75rem);
+  grid-template-areas:
+    "identity portrait"
+    "intro portrait";
+}
+
+.home-intro__identity {
+  grid-area: identity;
+}
+
+.home-intro__role {
+  margin: 0;
+  color: var(--portfolio-muted);
+  font-weight: 500;
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
+.home-intro__portrait {
+  grid-area: portrait;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 72% 60%;
+    border-radius: 0.65rem;
+  }
+
+  figcaption {
+    margin-top: 0.4rem;
+    color: var(--portfolio-muted);
+    font-size: 0.78rem;
+    text-align: right;
+  }
+}
+
+.home-intro__body {
+  grid-area: intro;
+
+  > p {
+    max-width: 48ch;
+    margin-bottom: 1rem;
+    font-size: clamp(1rem, 1.8vw, 1.18rem);
+    line-height: 1.5;
+  }
+}
+
+.home-intro__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+    padding: 0.4rem 0.9rem;
+    color: var(--global-text-color);
+    font-size: 0.88rem;
+    font-weight: 600;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+
+  .home-intro__primary {
+    color: var(--global-bg-color);
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-bg-color);
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.home-section {
+  margin-top: clamp(1.65rem, 4vw, 2.5rem);
+
+  h2 {
+    font-size: clamp(1.35rem, 3vw, 1.65rem);
+    font-weight: 620;
+    letter-spacing: -0.025em;
+  }
+}
+
+.home-section__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem 1rem;
+  flex-wrap: wrap;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  h2 {
+    margin: 0;
+  }
+
+  a {
+    font-size: 0.86rem;
+    font-weight: 550;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
+.home-news {
+  .news table {
+    margin: 0;
+  }
+
+  tr + tr {
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .table th,
+  .table td {
+    padding: 0.6rem 0;
+    color: var(--global-text-color);
+    line-height: 1.45;
+  }
+
+  .table th {
+    padding-right: 1rem;
+    color: var(--portfolio-muted);
+    font-size: 0.82rem;
+    font-weight: 550;
+  }
+}
+
+.home-background {
+  max-width: 72ch;
+
+  h2 {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.publication-index-page .post-header {
+  .post-title {
+    font-size: clamp(2.1rem, 5vw, 3rem);
+    font-weight: 650;
+    letter-spacing: -0.04em;
+  }
+
+  .post-description {
+    margin-bottom: 1.25rem;
+    color: var(--portfolio-muted);
+  }
+}
+
+.publication-search {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: min(100%, 31rem);
+  padding: 0 0.85rem;
+  color: var(--portfolio-muted);
+  background: var(--portfolio-tint);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.45rem;
+
+  &:focus-within {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  input {
+    width: 100%;
+    min-width: 0;
+    min-height: 2.8rem;
+    color: var(--global-text-color);
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+    &::placeholder {
+      color: var(--portfolio-muted);
+    }
+  }
+}
+
+.publication-index.publications {
+  margin-top: 1.75rem;
+
+  h2.bibliography {
+    margin: 1.65rem 0 0;
+    padding: 0 0 0.55rem;
+    color: var(--global-text-color);
+    font-size: 1.3rem;
+    font-weight: 630;
+    text-align: left;
+    border-top: 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+}
+
+.home-papers .publications {
+  margin-top: 0;
+}
+
+.publication-index.publications,
+.home-papers .publications {
+  ol.bibliography > li {
+    margin: 0;
+    padding: 0.9rem 0;
+
+    & + li {
+      border-top: 1px solid var(--global-divider-color);
+    }
+
+    .title {
+      max-width: 76ch;
+      margin-bottom: 0.25rem;
+      font-size: 1.03rem;
+      font-weight: 630;
+      line-height: 1.4;
+    }
+
+    .author,
+    .periodical {
+      color: var(--portfolio-muted);
+      font-size: 0.91rem;
+      line-height: 1.45;
+    }
+
+    .periodical {
+      margin-top: 0.1rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 0.45rem;
+
+      a.btn {
+        display: inline-flex;
+        align-items: center;
+        min-height: 2rem;
+        margin: 0.5rem 0 0;
+        padding: 0.25rem 0.65rem;
+        color: var(--global-text-color);
+        font-size: 0.74rem;
+        font-weight: 550;
+        text-transform: none;
+        background: var(--portfolio-tint);
+        border-color: var(--global-divider-color);
+        border-radius: 0.35rem;
+
+        &:hover,
+        &:focus-visible {
+          border-color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .home-intro--with-portrait {
+    grid-template-columns: minmax(0, 1fr) 4.75rem;
+    grid-template-areas:
+      "identity portrait"
+      "intro intro";
+  }
+
+  .home-intro__portrait {
+    img {
+      aspect-ratio: 1;
+    }
+
+    figcaption {
+      display: none;
+    }
+  }
+
+  .home-intro__role {
+    font-size: 0.92rem;
+  }
+
+  .home-news .table th {
+    width: 5.15rem !important;
+    padding-right: 0.65rem;
+  }
+}

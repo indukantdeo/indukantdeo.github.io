@@ -1,19 +1,17 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
+body_class: publication-index-page
+footer_fixed: false
 description: Journal articles, conference papers, and preprints by year.
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="publications publication-index">
 
 {% bibliography %}
 

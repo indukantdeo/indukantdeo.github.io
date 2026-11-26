@@ -12,7 +12,7 @@ Memories to share throughout my academic life
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Gallery_1.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/Gallery_1.JPG" class="img-fluid rounded z-depth-1" alt="Group posing beside a car in the mountains" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Gallery_2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -23,7 +23,7 @@ Memories to share throughout my academic life
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Gallery_4.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/Gallery_4.jpg" class="img-fluid rounded z-depth-1" alt="On the shore below the Golden Gate Bridge" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Gallery_5.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}

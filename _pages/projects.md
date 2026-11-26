@@ -2,10 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects and open-source examples in scientific computing and distributed machine learning.
+description: Research in underwater acoustics, scientific machine learning, and distributed AI, alongside open-source numerical examples.
 nav: true
 nav_order: 3
 horizontal: true
+display_categories: [Research and industry, PhD research, Open-source examples]
 ---
 
 <!-- pages/projects.md -->
@@ -13,9 +14,7 @@ horizontal: true
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
+  <h2 class="category" id="{{ category | slugify }}">{{ category }}</h2>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

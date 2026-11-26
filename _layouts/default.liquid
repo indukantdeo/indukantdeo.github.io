@@ -16,7 +16,11 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  {% assign footer_fixed = page.footer_fixed %}
+  {% if footer_fixed == nil %}
+    {% assign footer_fixed = site.footer_fixed %}
+  {% endif %}
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless footer_fixed %}sticky-bottom-footer{% endunless %} {{ page.body_class }}">
     <!-- Header -->
     {% include header.liquid %}
 
@@ -48,7 +52,7 @@
     </div>
 
     <!-- Footer -->
-    {% include footer.liquid %}
+    {% include footer.liquid fixed=footer_fixed %}
 
     <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}

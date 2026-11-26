@@ -1,4 +1,6 @@
-{%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign extension = include.path | split: "." | last | prepend: "." -%}
+{%- assign stem_length = include.path.size | minus: extension.size -%}
+{%- assign img_path = include.path | slice: 0, stem_length -%}
 
 <figure>
 
@@ -26,7 +28,7 @@
       {% if include.alt %}alt="{{ include.alt }}"{% endif %}
       {% if include.title %}title="{{ include.title }}"{% endif %}
       {% if include.zoomable %}data-zoomable{% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      onerror="this.onerror=null; this.parentElement.querySelectorAll('source').forEach(function(source) { source.remove(); });"
     />
   </picture>
 
