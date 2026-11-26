@@ -1,5 +1,9 @@
 ---
-layout: page
+layout: project
+img: assets/img/projects/distributed-training-overlap.png
+img_alt: "Simulated compute and communication overlap versus distance for two GPT-3 model sizes"
+img_caption: "Simulated compute–communication overlap as the distance between data centers increases, for 13B- and 175B-parameter GPT-3 models."
+img_source: https://arxiv.org/abs/2605.19169
 title: Network performance in distributed AI training
 description: Discrete-event simulation of how optical fiber latency affects training across data centers.
 importance: 2

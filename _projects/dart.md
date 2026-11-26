@@ -1,5 +1,8 @@
 ---
-layout: page
+layout: project
+img: assets/img/projects/dart-transmission-loss.png
+img_alt: "Transmission loss field with two circular seamount outlines in the horizontal plane"
+img_caption: "DART’s full three-dimensional transmission-loss field for the double-seamount benchmark at 100 Hz and 400 m depth."
 title: Differentiable Acoustic Ray Tracing (DART)
 description: A JAX solver for underwater sound propagation, environmental sensitivity, and inversion.
 importance: 1

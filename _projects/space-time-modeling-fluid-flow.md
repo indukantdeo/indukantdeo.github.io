@@ -1,5 +1,9 @@
 ---
-layout: page
+layout: project
+img: assets/img/projects/space-time-cylinder-wake.png
+img_alt: "Three flow-field panels comparing two reduced-order predictions with the reference solution for a circular cylinder wake"
+img_caption: "Cylinder wake at Reynolds number 60 and time step 100. From left to right, the 3D convolutional prediction, the recurrent model prediction, and the reference solution."
+img_source: https://arxiv.org/abs/2211.00307
 title: Space–time reduced-order modeling of fluid flow
 description: Three-dimensional convolutions for forecasting fluid flow beyond a training window.
 importance: 4

@@ -1,5 +1,9 @@
 ---
-layout: page
+layout: project
+img: assets/img/projects/range-conditional-network.png
+img_alt: "Convolutional encoder and decoder diagram for predicting transmission loss from bathymetry"
+img_caption: "The range-conditional convolutional network maps bathymetry to a transmission-loss field."
+img_source: https://arxiv.org/abs/2404.08091
 title: Continual learning for underwater acoustics
 description: A convolutional model that predicts transmission loss across changing seabed profiles.
 importance: 3

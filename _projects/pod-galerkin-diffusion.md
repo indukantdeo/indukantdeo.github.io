@@ -1,5 +1,9 @@
 ---
-layout: page
+layout: project
+img: assets/img/projects/pod-galerkin-diffusion.png
+img_alt: "Overlapping curves compare full-order and POD–Galerkin diffusion solutions at three times"
+img_caption: "Full-order and POD–Galerkin diffusion solutions at three time steps for a held-out diffusion coefficient."
+img_source: https://github.com/indukantdeo/pod-galerkin/blob/main/pod-galerkin.ipynb
 title: POD–Galerkin model for diffusion
 description: A reduced-order model of the one-dimensional diffusion equation.
 importance: 2

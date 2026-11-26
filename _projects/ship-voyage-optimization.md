@@ -1,5 +1,9 @@
 ---
-layout: page
+layout: project
+img: assets/img/projects/mute-dss-voyage-comparison.png
+img_alt: "Maps and plots comparing ship speeds and underwater acoustic exposure under AIS-based and optimized operations"
+img_caption: "MUTE-DSS Case 1 compares AIS-based and optimized ship operation through route, speed, and modeled acoustic exposure."
+img_source: https://arxiv.org/abs/2508.01907
 title: Ship voyage planning for underwater noise mitigation
 description: Voyage optimization that weighs marine mammal noise exposure against fuel consumption.
 importance: 6

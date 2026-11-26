@@ -246,6 +246,79 @@
   margin-top: 0;
 }
 
+.project-card {
+  overflow: hidden;
+  background-color: var(--global-card-bg-color);
+
+  .card-title {
+    margin-bottom: 0.55rem;
+    font-size: 1.22rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+}
+
+.project-card__link {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: var(--global-text-color);
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: -3px;
+  }
+}
+
+.project-card__media {
+  position: relative;
+  aspect-ratio: 2 / 1;
+  background-color: #fff;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  figure {
+    position: absolute;
+    inset: 0.65rem;
+    margin: 0;
+  }
+
+  picture {
+    display: block;
+    height: 100%;
+  }
+
+  img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.project-detail-figure {
+  margin-top: 1.75rem;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+  }
+
+  figcaption {
+    margin-top: 0.6rem;
+    color: color-mix(in srgb, var(--global-text-color) 72%, var(--global-bg-color));
+    font-size: 0.9rem;
+    text-align: left;
+
+    a {
+      margin-left: 0.35em;
+      white-space: nowrap;
+    }
+  }
+}
+
 .publication-index.publications,
 .home-papers .publications {
   ol.bibliography > li {

@@ -1,0 +1,23 @@
+---
+layout: page
+---
+{{ content }}
+
+{% if page.img %}
+  {% capture caption %}
+    {{ page.img_caption | escape }}
+    {% if page.img_source %}
+      <a href="{{ page.img_source }}">Figure source</a>
+    {% endif %}
+  {% endcapture %}
+  <div class="project-detail-figure">
+    {%
+      include figure.liquid
+      path=page.img
+      sizes="(min-width: 960px) 900px, 94vw"
+      alt=page.img_alt
+      caption=caption
+      zoomable=true
+    %}
+  </div>
+{% endif %}
