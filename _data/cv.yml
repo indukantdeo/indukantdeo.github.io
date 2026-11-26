@@ -18,6 +18,9 @@
         - "Thesis: Physics-Guided Deep Learning for Dynamical Systems: Applications to Fluid Flow and Ocean Acoustics"
         - "Grade: 93%"
         - "Relevant coursework: Machine Learning, Deep Learning, Numerical Methods for Deep Learning, Deep Learning with Graphs, Probability, Statistical Inference"
+      linkitems:
+        - linkname: UBC dissertation
+          link: https://doi.org/10.14288/1.0449988
     - title: B.Tech. in Aerospace Engineering
       institution: Indian Institute of Technology Kharagpur, Kharagpur, India
       year: 2016 - 2020
@@ -62,6 +65,28 @@
         - Built a space-time reduced-order model with 3D convolutional kernels, published in Physics of Fluids (Editor's Pick).
         - Developed attention and loss-decomposition methods inspired by numerical time integration for long-horizon prediction reliability.
         - Published research on graph neural networks, reduced-order modeling, physics-guided ML, and uncertainty-aware prediction across fluids, acoustics, and scientific computing.
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: Modeling the Impact of Fiber Latency on Compute-Communication Overlap in Geo-Distributed Multi-Datacenter AI Training
+      institution: European Conference on Optical Communications
+      year: 2026
+      linkitems:
+        - linkname: Conference paper
+          link: https://doi.org/10.1364/ECEOC.2026.Th1_G1
+    - title: A physics-guided probabilistic surrogate modeling framework for digital twins of underwater radiated noise
+      institution: Ocean Engineering
+      year: 2026
+      linkitems:
+        - linkname: Journal article
+          link: https://doi.org/10.1016/j.oceaneng.2026.125461
+    - title: Predicting transmission loss in underwater acoustics using continual learning with range-dependent conditional convolutional neural networks
+      institution: The Journal of the Acoustical Society of America
+      year: 2025
+      linkitems:
+        - linkname: Journal article
+          link: https://doi.org/10.1121/10.0036773
 
 - title: Leadership
   type: time_table
